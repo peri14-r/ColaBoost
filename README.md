@@ -345,17 +345,3 @@ Privacy Policy
 Terms of Service
 
 ---
-
-# Deliverables
-* Fully working ColaBoost platform
-* All actions connected to backend
-* Stripe live + test mode
-* Admin dashboard
-* Responsive design
-* Dark mode support
-
-✔ A **short GitHub README version**
-✔ A **documentation wiki version**
-✔ A **developer API documentation file**
-
-Which one do you want next?
