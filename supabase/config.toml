@@ -1,0 +1,41 @@
+project_id = "bxuoikvhwfmonqtzduyr"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[auth]
+enabled = true
+port = 54322
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["https://bxuoikvhwfmonqtzduyr.supabase.co"]
+jwt_expiry = 3600
+enable_signup = true
+enable_confirmations = true
+enable_manual_linking = false
+
+[db]
+port = 54323
+shadow_port = 54324
+major_version = 15
+
+[functions]
+verify_jwt = true
+
+[functions.create-checkout]
+verify_jwt = true
+
+[functions.check-subscription]
+verify_jwt = true
+
+[functions.ai-suggestions]
+verify_jwt = true
+
+[functions.boost-profile-checkout]
+verify_jwt = true
+
+[functions.boost-webhook]
+verify_jwt = false
