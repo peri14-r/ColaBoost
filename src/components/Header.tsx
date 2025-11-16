@@ -27,13 +27,13 @@ export function Header() {
         </div>
         
         <nav className="hidden md:flex items-center space-x-6">
-          <a href="#features" className="text-foreground/70 hover:text-foreground transition-colors">
+          <a href="#features" className="text-white/70 hover:text-white transition-colors">
             Features
           </a>
-          <a href="#how-it-works" className="text-foreground/70 hover:text-foreground transition-colors">
+          <a href="#how-it-works" className="text-white/70 hover:text-white transition-colors">
             How it Works
           </a>
-          <a href="#pricing" className="text-foreground/70 hover:text-foreground transition-colors">
+          <a href="#pricing" className="text-white/70 hover:text-white transition-colors">
             Pricing
           </a>
         </nav>

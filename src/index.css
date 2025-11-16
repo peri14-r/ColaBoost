@@ -4,6 +4,9 @@
 
 /* CollaBoost Design System - Pure Black & White Theme */
 
+html {
+  scroll-behavior: smooth;
+}
 @layer base {
   :root {
     /* Background Colors - Pure White */
