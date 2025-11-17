@@ -73,6 +73,7 @@ createRoot(document.getElementById('root')!).render(
 
               {/* App Pages */}
               <Route path="/auth" element={<Auth />} />
+              <Route path="/login" element={<Auth />} />
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/find-creators" element={<FindCreators />} />
               <Route path="/my-collabs" element={<MyCollabs />} />
